@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="content first-content">
+           <div class="first-column">
+               <h2 class="title title-primary">Welcome back!</h2>
+               <p class="description description-primary">To keep conect us</p>
+               <p class="description description-primary">please login with your personal info</p>
+               <button id="signIn" class="btn btn-primary">sign in</button>
+           </div>
+           <div class="second-column">
+               <h2 class="title title-second">create account</h2>
+               <div class="social-media">
+                <ul class="list-social-media">
+                  <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-google-plus-g"></i></li></a>
+                  <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-facebook-f"></i></li></a>
+                  <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-linkedin-in"></i></li></a>
+                </ul>
+             </div>
+               <p class="description description-second">or use your email for resistration:</p>
+               <form class="form">
+                   <label class="label-input" for="">
+                    <i class="far fa-user icon-modify"></i>
+                         <input class="sign-up-name" type="text" placeholder="Name">
+                   </label>
+                   <label class="label-input" for="">
+                    <i class="far fa-envelope icon-modify"></i>
+                        <input class="sign-up-email" type="email" placeholder="email">
+                    </label>    
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                         <input class="sign-up-password" type="password" placeholder="password">
+                    </label>    
+                    <button class="btn btn-second">sign up</button>
+               </form>
+           </div>
+       </div>
+
+       <div class="content second-content">
+        <div class="first-column">
+            <h2 class="title title-primary">hello friend!</h2>
+            <p class="description description-primary">Enter your personal details</p>
+            <p class="description description-primary">and start your journey with us</p>
+            <button id="signUp" class="btn btn-primary">sign up</button>
+        </div>
+        <div class="second-column">
+            <h2 class="title title-second">sign in to developer</h2>
+            <div class="social-media">
+                <ul class="list-social-media">
+                  <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-google-plus-g"></i></li></a>
+                  <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-facebook-f"></i></li></a>
+                  <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-linkedin-in"></i></li></a>
+                </ul>
+             </div>
+            <p class="description description-second">or use your email for resistration:</p>
+            <form class="form" method="get" action="../index.html">
+                <label class="label-input" for="">
+                 <i class="far fa-envelope icon-modify"></i>
+                     <input class="sign-in-email" type="email" placeholder="email">
+                 </label>    
+                 <label class="label-input" for="">
+                     <i class="fas fa-lock icon-modify"></i>
+                      <input class="sign-in-password" type="password" placeholder="password">
+                 </label>    
+                 <a forgot-password href="#">forgot your password?</a>
+                 <button class="btn btn-second sign-in">sign in</button>
+            </form>
+        </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="validationSignUp.js"></script>
+    <script src="validationSignIn.js"></script>
+    <script src="fontawesome-free-5.15.4-web/js/all.min.js"></script>
+</body>
+</html>

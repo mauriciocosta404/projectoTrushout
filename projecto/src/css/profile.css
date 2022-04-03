@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-container{
+    display: none;
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255,255, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    transition: 3s;
+}
+.profile-box{
+    z-index: 3;
+    background-color: #16b621;
+    text-align: center;
+    padding: 40px 70px;
+    color: #fff;
+    border-radius: 4px;
+}
+.menu-icon{
+    font-size: 25px;
+    position: relative;
+    top:-170px;
+    right: 80px;
+}
+.setting-icon{
+    font-size: 25px;
+    position: relative;
+    top:-170px;
+    left: 240px;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 6px;
+    margin-top: 40px;
+    position: relative;
+    right: 30px;
+}
+.social-media{
+    font-size: 25px;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+.profile-button{
+    background-color: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: -40px;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+.arrow-icon{
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.profile-box button{
+    background-color: #fff;
+    color: #16b621;
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 10px rgba(1,250,54,0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.close-profile{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 50px;
+    top: 30px;
+    color: #1c1e21;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
